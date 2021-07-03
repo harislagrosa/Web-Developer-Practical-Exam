@@ -1,0 +1,89 @@
+.car-container {
+    .title {
+        text-align: center;
+        font-weight: bold;
+    }
+    .card-body {
+        .cars {
+            .heading {
+                font-weight: bold;
+            }
+            .table {
+                thead {
+                    th {
+                        background-color: $color-default;
+                        border-top: unset;
+                        border-bottom: unset !important;
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            font-weight: 600;
+                        }
+                        .complete {
+                            color: $color-pink;
+                        }
+                    }
+                }
+            }
+        }
+        .information {
+            margin-top: 25px;
+            .table {
+                thead {
+                    th {
+                        color: white;
+                        background-color: $color-pink;
+                        border-top: unset;
+                        border-bottom: unset !important;
+                    }
+                }
+                tbody {
+                    tr {
+                        font-weight: 600;
+                        td {
+                            background-color: $color-default;
+                            border-top: unset;
+                            border-bottom: unset !important;
+                        }
+                        .indent {
+                            text-indent: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .btn-pink {
+        color: #fff;
+        background-color: $color-pink;
+        border-color: $color-pink;
+    }
+}
+
+.car-container-create {
+    .title {
+        text-align: center;
+        font-weight: bold;
+    }
+    .card-body {
+        .cars {
+            display: flex;
+            justify-content: space-between;
+            .arrow {
+                margin-top: 50px;
+            }
+        }
+        form {
+            margin-top: 50px;
+        }
+    }
+
+    .btn-pink {
+        color: #fff;
+        background-color: $color-pink;
+        border-color: $color-pink;
+    }
+}
